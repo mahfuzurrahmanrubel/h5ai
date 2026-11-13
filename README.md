@@ -1,12 +1,3 @@
-*** Ubuntu-এ এক কমান্ডে install (recommended) ***
-    cd /path/to/project && sudo bash install.sh
-    বিস্তারিত: INSTALLATION_GUIDE.md
-    (নিচের manual steps পুরনো — install.sh ব্যবহার করলে এগুলো দরকার নেই)
-
-defalt user admin , pass 123
-
-OS : Ububtu 24
-
 /////////////////////
 ///now install FTP///
 /////////////////////
