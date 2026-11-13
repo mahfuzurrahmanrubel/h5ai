@@ -16,7 +16,9 @@ chmod -R 755 /var/www/FTP
 wget https://github.com/mahfuzurrahmanrubel/h5ai/archive/refs/tags/h5ai.zip
 
 apt install unzip
+
 unzip h5ai.zip
+
 rm h5ai.zip
 
 nano /etc/nginx/sites-available/h5ai-8888.conf
