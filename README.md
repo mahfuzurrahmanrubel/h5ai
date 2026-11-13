@@ -22,11 +22,11 @@ chown -R www-data:www-data /var/www/FTP
 chmod -R 755 /var/www/FTP
 
 
-wget https://github.com/lrsjng/h5ai/releases/download/v0.30.0/h5ai-0.30.0.zip
+wget https://github.com/mahfuzurrahmanrubel/h5ai/archive/refs/tags/h5ai.zip
 
 apt install unzip
-unzip h5ai-0.30.0.zip
-rm h5ai-0.30.0.zip
+unzip h5ai.zip
+rm h5ai.zip
 
 nano /etc/nginx/sites-available/h5ai-8888.conf
 
