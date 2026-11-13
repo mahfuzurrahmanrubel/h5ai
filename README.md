@@ -43,3 +43,12 @@ server {
         fastcgi_pass unix:/run/php/php8.3-fpm.sock;
     }
 }
+```
+
+sudo ln -s /etc/nginx/sites-available/h5ai-8888.conf /etc/nginx/sites-enabled/
+
+
+sudo nginx -t
+sudo systemctl restart nginx
+
+You can now access your video platform by navigating to your server's IP address (e.g., http://your ip:8888) in the browser.
