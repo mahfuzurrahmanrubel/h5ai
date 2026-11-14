@@ -7,6 +7,7 @@ OS : Ububtu 24
 
 
 sudo apt update
+
 sudo apt install php-fpm -y
 
 mkdir -p /var/www/FTP
