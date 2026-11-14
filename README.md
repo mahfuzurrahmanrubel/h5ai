@@ -11,18 +11,24 @@ sudo apt update
 sudo apt install php-fpm -y
 
 mkdir -p /var/www/FTP
+
 cd /var/www/FTP
 
 chown -R www-data:www-data /var/www/FTP
+
 chmod -R 755 /var/www/FTP
 
 
 wget https://github.com/mahfuzurrahmanrubel/h5ai/archive/refs/tags/h5ai.zip
+
 or 
+
 download file and upload on server and unzip
 
 apt install unzip
+
 unzip h5ai-0.30.0.zip
+
 rm h5ai-0.30.0.zip
 ------
 
@@ -58,6 +64,7 @@ sudo ln -s /etc/nginx/sites-available/h5ai-8888.conf /etc/nginx/sites-enabled/
 
 
 sudo nginx -t
+
 sudo systemctl restart nginx
 
 You can now access your video platform by navigating to your server's IP address (e.g., http://your ip :8888) in the browser.
